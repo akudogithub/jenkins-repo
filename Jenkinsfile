@@ -8,7 +8,7 @@ pipeline{
 			}
 			stage('system update'){
 				steps{
-					sh 'sudo update -y'
+					sh 'cat /etc/passwd'
 				}
 			}
 			stage('sys-resource-check'){
